@@ -30,3 +30,7 @@ Running 1 test for test/Memory.t.sol:CounterTest
 [PASS] testArgs() (gas: 9631)
 Test result: ok. 1 passed; 0 failed; finished in 989.39µs
 ```
+
+## Foundry specific issue
+
+Currently, foundry allows us to test fixed length array inputs. It is difficult to test for dynamic arrays. Dynamic arrays store the length of array in memory, would be nice improvement.

@@ -14,7 +14,6 @@ contract CounterTest is Test {
     function testArgs() public {
         (
             bytes32 location,
-            bytes32 len,
             bytes32 index0,
             bytes32 index1,
             bytes32 index2,
@@ -24,10 +23,6 @@ contract CounterTest is Test {
         assertEq(
             location,
             0x0000000000000000000000000000000000000000000000000000000000000080
-        );
-        assertEq(
-            len,
-            0x0000000000000000000000000000000000000000000000000000000000000004
         );
         assertEq(
             index0,

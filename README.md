@@ -2,9 +2,9 @@
 
 In solidity, array inputs are declared with the `memory` keyword to stored the array values in memory so they can be accessed during execution
 
-    ```solidity
-    function args(uint8[4] memory arr) { /* rest of logic ... */  }
-    ```
+```js
+function args(uint8[4] memory arr) { /* rest of logic ... */  }
+```
 
 How does solidity do it?
 

@@ -33,4 +33,4 @@ Test result: ok. 1 passed; 0 failed; finished in 989.39µs
 
 ## Foundry specific issue
 
-Currently, foundry allows us to test fixed length array inputs. It is difficult to test for dynamic arrays. Dynamic arrays store the length of array in memory, would be nice improvement.
+Currently, foundry allows us to test fixed length array inputs. It is difficult to test for dynamic arrays. Dynamic arrays store the length of array in memory, would be a nice improvement.
